@@ -1,0 +1,11 @@
+.background{
+    background-color: #eee;
+    border: 1px solid #333;
+}
+
+.pContent{
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+}
