@@ -1,31 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import Button from './components/Button'
+import Header from './components/Header';
+import Styled from 'styled-components'
+import Pesquisa from './components/Pesquisa';
+
+const AppContainer = Styled.div`
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #002F52 35%, #326589);
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-        <main>
-        <div className="section-main">
-          <h1>Testando página</h1>
-          <p>Eu amo meu momozinho, vai tudo ficar bem, amigo estou aqui</p>
-          <Button></Button>
-          <Button></Button>
-          <Button></Button>
-          <Button></Button>
-          <Button></Button>
-          <Button></Button>
-          <Button></Button>
-          <Button></Button>
-          <Button></Button>
-        </div>
-      </main>
-      </header>
-      
-    </div>
+    <AppContainer>
+      <Header/>
+      <Pesquisa/>
+    </AppContainer>
   );
 }
-
 export default App;
