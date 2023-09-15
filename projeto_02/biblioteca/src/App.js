@@ -1,6 +1,6 @@
-import Header from './components/Header';
+import Header from './components/Header'
 import Styled from 'styled-components'
-import Pesquisa from './components/Pesquisa';
+import Pesquisa from './components/Pesquisa'
 
 const AppContainer = Styled.div`
     width: 100vw;
